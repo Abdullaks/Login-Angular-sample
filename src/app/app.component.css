@@ -1,0 +1,28 @@
+
+.mat-tab-label {
+    display: flex;
+}
+.example-card{
+    overflow: hidden;
+    border-radius: .5rem;
+    margin-top: 1rem;
+}
+.asterisk_input::after 
+{
+    content:" *"; 
+    color: red;
+}
+
+
+.tabClass{
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+mat-form-field{
+    display: flex;
+    flex-direction: column;
+    width: 350px !important;
+}
+
